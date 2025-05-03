@@ -1,0 +1,1 @@
+A robust backend for an online food ordering system powered by Spring Boot, with RESTful APIs for menu browsing, order placement, and user authentication. Integrated with PostgreSQL via Spring Data JDBC, and deployed using Docker to AWS ECR for scalability.
