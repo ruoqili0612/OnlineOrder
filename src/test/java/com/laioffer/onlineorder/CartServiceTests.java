@@ -42,7 +42,7 @@ public class CartServiceTests {
     private CartService cartService;
 
 
-    @BeforeEach
+    @BeforeEach//每次test run一次这个，每个test都是隔绝的
     void setup() {
         cartService = new CartService(cartRepository, menuItemRepository, orderItemRepository);
     }
